@@ -1,0 +1,4 @@
+rootProject.name = 'CashRegisterNew'
+include 'src:main:org.example'
+findProject(':src:main:org.example')?.name = 'org.example'
+
